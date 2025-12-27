@@ -1,6 +1,6 @@
 ---
 created_at: "2025-12-27T17:12:25+0100"
-path: "/mnt/c/Users/hamme/OneDrive/Software-Projekte/nlss-demo/nlss-workspace/responses"
+path: "nlss-demo/nlss-workspace/responses"
 os: "Linux 6.6.87.2-microsoft-standard-WSL2"
 r_version: "R version 4.5.2 (2025-10-31)"
 agent: "Codex"
@@ -17,14 +17,14 @@ Dataset workspace summary.
 
 | Dataset | Type | Rows | Columns | Source | Parquet copy |
 | --- | --- | --- | --- | --- | --- |
-| responses | SAV | 53 | 78 | /mnt/c/Users/hamme/OneDrive/Software-Projekte/nlss-demo/responses.sav | /mnt/c/Users/hamme/OneDrive/Software-Projekte/nlss-demo/nlss-workspace/responses/responses.parquet |
+| responses | SAV | 53 | 78 | nlss-demo/responses.sav | nlss-demo/nlss-workspace/responses/responses.parquet |
 
 
 *Note.* Dataset copy saved as .parquet in the dataset workspace.
 
 **Narrative**
 
-Workspace initialized at 2025-12-27T17:12:25+0100. Output directory: /mnt/c/Users/hamme/OneDrive/Software-Projekte/nlss-demo/nlss-workspace/responses. Dataset copies saved for: responses.
+Workspace initialized at 2025-12-27T17:12:25+0100. Output directory: nlss-demo/nlss-workspace/responses. Dataset copies saved for: responses.
 
 ---
 
