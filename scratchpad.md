@@ -1,6 +1,6 @@
 ---
 created_at: "2025-12-27T17:12:25+0100"
-path: "/mnt/c/Users/hamme/OneDrive/Software-Projekte/nlss-demo/nlss-workspace/responses"
+path: "nlss-demo/nlss-workspace/responses"
 os: "Linux 6.6.87.2-microsoft-standard-WSL2"
 r_version: "R version 4.5.2 (2025-10-31)"
 agent: "Codex"
@@ -10,10 +10,10 @@ Dataset workspace scratchpad. Update this file as decisions are made.
 
 # responses
 
-- Source: `/mnt/c/Users/hamme/OneDrive/Software-Projekte/nlss-demo/responses.sav`
+- Source: `nlss-demo/responses.sav`
 - Type: SAV
 - Dimensions: n = 53, p = 78
-- Parquet copy: `/mnt/c/Users/hamme/OneDrive/Software-Projekte/nlss-demo/nlss-workspace/responses/responses.parquet`
+- Parquet copy: `nlss-demo/nlss-workspace/responses/responses.parquet`
 
 ## Analysis Plan
 - [x] Inspect dataset structure and candidate variables
