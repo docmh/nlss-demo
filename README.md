@@ -1,6 +1,5 @@
 # NLSS Demo Output
 
-
 Find demo output files of NLSS.
 
 20251227: Needed 4 minutes to run a data exploration report on `responses` dataset in WSL2 environment.
