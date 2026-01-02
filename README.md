@@ -33,6 +33,12 @@ Claude Sonnet missed governance following completely, while Opus did well here. 
 
 Codex fullows NLSS governance much more strictly than Claude, even in the Low thinking effort. 
 
+## Smoke Tests
+
+Date: 20260101 
+
+We ran 628 smoke tests on all statistical modules and functionalities (subskills and utilities) of NLSS using bash scripts against the respective R scripts via `Rscript` calls. Those smoke tests included positive, edge and negative tests. All tests passed with the expected behavior.
+
 ## Prompt Robustness Tests
 
 Date: 20260102
@@ -43,7 +49,7 @@ Of the 150 total tests, 145 (96.7%) matched the expected statistical module and 
 
 Find the machine readable results in `20260102/prompt-robustness-tests/protocol_log.jsonl` and the human readable results in `20260102/prompt-robustness-tests/report_canonical_reconstructed.md`. 
 
-We used GPT-5.2-Codex-Low for all prompt robustness tests.
+We used GPT-5.2-Codex-Low (lowest thinking effort) for all prompt robustness tests.
 
 ## NLSS is Live
 
