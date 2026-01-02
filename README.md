@@ -37,7 +37,7 @@ Codex fullows NLSS governance much more strictly than Claude, even in the Low th
 
 Date: 20260101 
 
-We ran 628 smoke tests on all statistical modules and functionalities (subskills and utilities) of NLSS using bash scripts against the respective R scripts via `Rscript` calls. Those smoke tests included positive, edge and negative tests. All tests passed with the expected behavior.
+We ran 628 smoke tests on all statistical modules and functionalities (subskills and utilities) of NLSS using bash scripts (Linux/WSL) and PowerShell (Windows) against the respective R scripts via `Rscript` calls. Those smoke tests included positive, edge and negative tests. All tests passed with the expected behavior.
 
 ## Prompt Robustness Tests
 
