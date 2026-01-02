@@ -1,6 +1,6 @@
 # NLSS Demo Output
 
-Find demo output files of NLSS. 
+Find demo output files of [NLSS](https://github.com/docmh/nlss). 
 
 ## Data Exploration
 
@@ -53,7 +53,7 @@ We used GPT-5.2-Codex-Low (lowest thinking effort) for all prompt robustness tes
 
 ## NLSS is Live
 
-Check out NLSS: https://github.com/docmh/nlss 
+Check out [NLSS](https://github.com/docmh/nlss).
 
 ## License
 
