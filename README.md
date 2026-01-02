@@ -14,6 +14,14 @@ Date: 20251229
 
 NLSS needed 24 minutes to run all analyses, reported in `20251229/report_canonical.md` and some additional time to apply formatting. Two follow-up prompts were needed. 
 
+## Smoke Tests
+
+Date: 20260101 
+
+We ran 628 smoke tests on all statistical modules and functionalities (subskills and utilities) of NLSS using bash scripts (Linux/WSL) and PowerShell (Windows) against the respective R scripts via `Rscript` calls. Those smoke tests included positive, edge and negative tests. All tests passed with the expected behavior.
+
+Smoke test suite is part of the NLSS repository and lives in `tests/smoke/`.
+
 ## Automatic Full Reports by Model
 
 Date: 20260102
@@ -32,14 +40,6 @@ For Codex models, the higher the thinking effort, the more polished and complete
 Claude Sonnet missed governance following completely, while Opus did well here. Opus' report still was more bullet-point style and less narrative than Codex's.
 
 Codex fullows NLSS governance much more strictly than Claude, even in the Low thinking effort. 
-
-## Smoke Tests
-
-Date: 20260101 
-
-We ran 628 smoke tests on all statistical modules and functionalities (subskills and utilities) of NLSS using bash scripts (Linux/WSL) and PowerShell (Windows) against the respective R scripts via `Rscript` calls. Those smoke tests included positive, edge and negative tests. All tests passed with the expected behavior.
-
-Smoke test suite is part of the NLSS repository and lives in `tests/smoke/`.
 
 ## Prompt Robustness Tests
 
