@@ -20,6 +20,8 @@ Date: 20260101
 
 We ran 628 smoke tests on all statistical modules and functionalities (subskills and utilities) of NLSS using bash scripts (Linux/WSL) and PowerShell (Windows) against the respective R scripts via `Rscript` calls. Those smoke tests included positive, edge and negative tests. All tests passed with the expected behavior.
 
+Smoke tests were run using `golden_dataset.csv` (see `20260102/prompt-robustness-tests/golden_dataset.csv`). 
+
 Smoke test suite is part of the NLSS repository and lives in `tests/smoke/`.
 
 ## Automatic Full Reports by Model
@@ -52,6 +54,8 @@ Of the 150 total tests, 145 (96.7%) matched the expected statistical module and 
 Find the machine readable results in `20260102/prompt-robustness-tests/protocol_log.jsonl` and the human readable results in `20260102/prompt-robustness-tests/report_canonical_reconstructed.md`. 
 
 We used GPT-5.2-Codex-Low (lowest thinking effort) for all prompt robustness tests.
+
+Prompt robustness tests were run using `golden_dataset.csv` (see `20260102/prompt-robustness-tests/golden_dataset.csv`).
 
 Prompt robustness test suite is part of the NLSS repository and lives in `tests/prompt-robustness/`.
 
