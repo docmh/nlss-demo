@@ -49,7 +49,7 @@ Check out NLSS: https://github.com/docmh/nlss
 
 ## License
 
-This repository's contents are licensed under CC BY 4.0. See `LICENSE`.
+This repository's contents are licensed under Apache 2.0. See `LICENSE`.
 
 NLSS is a trademark of Mike Hammes. See `TRADEMARKS.md`. 
 
