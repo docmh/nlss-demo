@@ -37,11 +37,13 @@ Codex fullows NLSS governance much more strictly than Claude, even in the Low th
 
 Date: 20260102
 
-We tested 10 different prompts with identical statistical intent against each of the 15 statistical modules (subskills) of NLSS, respectively. You can find the prompts as well as the intended `Rscript` call in `20260102/prompt-robustness-tests/prompts.csv`. We used GPT-5.2-Codex-Low for all tests.
+We tested 10 different prompts with identical statistical intent against each of the 15 statistical modules (subskills) of NLSS, respectively. You can find the prompts as well as the intended `Rscript` call in `20260102/prompt-robustness-tests/prompts.csv`. 
 
 Of the 150 total tests, 145 (96.7%) matched the expected statistical module and produced correct results. The 5 partially correct results used equivalent but different statistical methods than expected (e.g., correlation instead of test-retest-reliability analysis, crosstabs instead of grouped frequency tables).
 
 Find the machine readable results in `20260102/prompt-robustness-tests/protocol_log.jsonl` and the human readable results in `20260102/prompt-robustness-tests/report_canonical_reconstructed.md`. 
+
+We used GPT-5.2-Codex-Low for all prompt robustness tests.
 
 ## NLSS is Live
 
