@@ -59,6 +59,14 @@ Prompt robustness tests were run using `golden_dataset.csv` (see `20260102/promp
 
 Prompt robustness test suite is part of the NLSS repository and lives in `tests/prompt-robustness/`.
 
+## Golden Values Tests
+
+Date: 20260105
+
+We ran 291 tests using `golden_dataset.csv` (see `20260102/prompt-robustness-tests/golden_dataset.csv`) to compare NLSS results against known golden values for the implemented 15 statistical modules. All tests passed, confirming the accuracy of NLSS's statistical computations.
+
+Golden values test suite is part of the NLSS repository, lives in `tests/values/` and is wired into the smoke test suite.
+
 ## NLSS is Live
 
 Check out [NLSS](https://github.com/docmh/nlss).
