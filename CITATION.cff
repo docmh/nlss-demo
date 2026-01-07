@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use NLSS-Demo in published research, please cite:"
+title: "docmh/nlss-demo: NLSS-Demo"
+abstract: "Demonstration of test results from NLSS."
+authors:
+  - family-names: Hammes
+    given-names: Mike
+    orcid: https://orcid.org/0000-0003-1177-4282
+type: software
+date-released: 2026-01-01
+identifiers: 
+  - description: "The concept DOI of the work."
+    type: doi
+    value: 10.5281/zenodo.18173608
+url: https://doi.org/10.5281/zenodo.18173608
+license: Apache-2.0
+repository-code: https://github.com/docmh/nlss-demo
