@@ -71,6 +71,12 @@ Golden values test suite is part of the NLSS repository, lives in `tests/values/
 
 Check out [NLSS](https://github.com/docmh/nlss).
 
+## Cite
+
+If you use NLSS-Demo in your work, please cite:
+
+Hammes, M. (2026). docmh/nlss-demo: NLSS-Demo [Software]. Zenodo. https://doi.org/10.5281/zenodo.18173608
+
 ## License
 
 This repository's contents are licensed under Apache 2.0. See `LICENSE`.
